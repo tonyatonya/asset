@@ -5,6 +5,7 @@
 <body>
 <div class="wrapper">
 <?php require('inc_mainslide.php');?>
+<!-- test SVN -->
 <div class="content">
 	<section class="left-col">
 		<?php require('inc_calculatebanner.php'); ?>

@@ -171,15 +171,17 @@
 <script type="text/javascript">
 $(document).ready(function(){
 	var chatWidth = $(".livechat").width();
-	$(".normal a").click(function(){
+	$(".normal a").click(function(e){
 		$(".livechat").animate({
 			right : 20 
 		})
+		e.preventDefault();
 	}).parent().removeClass(".normal").addClass("open");
-	$(".livechat .close-btn").click(function(){
+	$(".livechat .close-btn").click(function(e){
 		$(".livechat").animate({
 			right: -295
 		}).parent().parent().parent().removeClass(".open").addClass(".normal");
+		e.preventDefault();
 	})
 })
 </script>

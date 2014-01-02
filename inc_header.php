@@ -55,7 +55,7 @@
 		</div>
 		<nav class="top-nav">
 			<ul>
-				<li class="home"><a href="index.php"><img src="images/homeico.png" alt="homeico" width="23" height="25" /><!-- <span>หน้าหลัก</span> --></a></li>
+				<li class="home"><a href="index.php"><img src="images/homeico.png" alt="homeico" width="23" height="25" /></a></li>
 				<li class="mainmenu"><a href="#">เกี่ยวกับเรา</a>
 					<div class="submenu">
 						<ul>
@@ -75,7 +75,13 @@
 			<div class="input-holder round">
 				<input  type="text" placeholder="search">
 			</div>
+			<script type="text/javascript">
+				$(document).ready(function(){
+					$(".mainmenu a").click(function(){
+						
+					})
+				})
+			</script>
 		</nav>
-		
 	</header>
 	</div>

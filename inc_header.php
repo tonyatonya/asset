@@ -13,6 +13,7 @@
 	<link type="text/css" rel="stylesheet" href="css/reset.css" media="screen,projection"/>
 	<link type="text/css" rel="stylesheet" href="css/dark-hive/jquery-ui-1.8.18.custom.css" media="screen,projection"/>
 	<link rel="stylesheet" type="text/css" href="css/sliderkit-core.css" media="screen, projection" />
+	<!-- <link href="css/bootstrap.css" rel="stylesheet"> -->
 	<link type="text/css" rel="stylesheet" href="css/layout.css" media="screen,projection"/>
 	<link type="text/css" rel="stylesheet" href="css/print.css" media="print"/>
 	<link type="image/ico" rel="shortcut icon" href="images/favicon.ico">
@@ -23,6 +24,7 @@
 	<!-- <script type="text/javascript" src="script/jquery-1.9.1.js"></script> -->
 	<!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script> -->
 	<script type="text/javascript" src="script/jquery-1.10.2.js"></script>
+	<script src="js/bootstrap.js"></script>
 	<div class="wrapper">
 	<header>
 		<div class="lang-sw">

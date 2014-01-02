@@ -30,7 +30,7 @@
 		<div class="lang-sw">
 			<ul>
 				<li class="th"><a href="#">TH</a></li>
-				<li class="en"><a href="#">EN</a></li>s
+				<li class="en"><a href="#">EN</a></li>
 			</ul>
 		</div>
 		<div class="clear" style="height:21px;"></div>

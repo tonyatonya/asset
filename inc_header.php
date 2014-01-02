@@ -21,7 +21,8 @@
 	<!-- <script type="text/javascript" language="javascript" src="script/swfobject.js"></script> -->
 	<!-- <script type="text/javascript" language="javascript" src="script/init.js"></script> -->
 	<!-- <script type="text/javascript" src="script/jquery-1.9.1.js"></script> -->
-	<script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+	<!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script> -->
+	<script type="text/javascript" src="script/jquery-1.10.2.js"></script>
 	<div class="wrapper">
 	<header>
 		<div class="lang-sw">
@@ -53,12 +54,21 @@
 		<nav class="top-nav">
 			<ul>
 				<li class="home"><a href="index.php"><img src="images/homeico.png" alt="homeico" width="23" height="25" /><!-- <span>หน้าหลัก</span> --></a></li>
-				<li><a href="#">เกี่ยวกับเรา</a></li>
-				<li><a href="products.php">ผลิตภัณฑ์และบริการ</a></li>
-				<li><a href="#">ข้อมูลนักลงทุน</a></li>
-				<li><a href="news.php">ข่าวสารและกิจกรรม</a></li>
-				<li><a href="#">ร่วมงานกับเรา</a></li>
-				<li><a href="contactus-head.php">ติดต่อเรา</a></li>
+				<li class="mainmenu"><a href="#">เกี่ยวกับเรา</a>
+					<div class="submenu">
+						<ul>
+							<li><a href="#">submenu</a></li>
+							<li><a href="#">submenu</a></li>
+							<li><a href="#">submenu</a></li>
+							<li><a href="#">submenu</a></li>
+						</ul>
+					</div>
+				</li>
+				<li class="mainmenu"><a href="products.php">ผลิตภัณฑ์และบริการ</a></li>
+				<li class="mainmenu"><a href="#">ข้อมูลนักลงทุน</a></li>
+				<li class="mainmenu"><a href="news.php">ข่าวสารและกิจกรรม</a></li>
+				<li class="mainmenu"><a href="#">ร่วมงานกับเรา</a></li>
+				<li class="mainmenu"><a href="contactus-head.php">ติดต่อเรา</a></li>
 			</ul>
 			<div class="input-holder round">
 				<input  type="text" placeholder="search">

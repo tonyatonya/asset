@@ -20,6 +20,7 @@ h2{
 	margin: 0;
 	padding: 0;
 }
+
 body{
 	font-family: BrowalliaUPC;
 	font-size: 100%;
@@ -34,6 +35,12 @@ body{
 	display: block;
 	visibility: hidden;
 }
+/*
+.mainwrapper{
+	width: 100%;
+	overflow: hidden;
+}
+*/
 .wrapper{
 	width: 960px;
 	margin-left: auto;

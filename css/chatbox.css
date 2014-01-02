@@ -1,0 +1,76 @@
+.livechat textarea{
+	resize: none;
+	width: 260px;
+	border: none;
+	background: transparent;
+	background-image: url(../images/messageboxBG.jpg);
+	background-repeat: repeat-x;
+}
+.livechat .conversation-box{
+	width: 260px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 150px;
+	margin-top: 10px;
+}
+.livechat .conversation-box textarea{
+	height: 150px;
+}
+.livechat .comment-box{
+	height: 40px;
+	width: 260px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+.livechat .comment-box textarea{
+	height: 40px;
+}
+.livechat{
+	background-color: #ea1c1c;
+	position: fixed;
+	top:200px;
+	z-index: 9999;
+	width: 295px;
+	height: 315px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	right: -295px;
+}
+.livechat .label{
+	width: 51px;
+	height: 45px;
+	background-image: url(../images/chat_label.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	left: -50px;
+}
+.livechat .label a{
+	width: 51px;
+	height: 45px;
+	display: block;
+}
+.livechat .label a span{
+	display: none;
+}
+.livechat .title{
+	color: #f27c7a;
+	font-family: Arial;
+	font-size: 18px;
+	width: 100%;
+	height: 30px;
+	text-align: right;
+}
+.send-btn{
+	position: absolute;
+	right: 15px;
+	bottom: 10px;
+}
+.close-btn{
+	width: 14px;
+	height: 14px;
+	position: absolute;
+	left: 10px;
+	top:10px;
+}

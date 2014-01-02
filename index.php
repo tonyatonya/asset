@@ -147,5 +147,42 @@
 </div>
 </div>
 <?php require('inc_footer.php'); ?>
+<!-- live Chat -->
+<link type="text/css" rel="stylesheet" href="css/chatbox.css" media="screen, projection"/>
+<div class="livechat">
+	<div class="label normal">
+		<a href="#"><span>open</span></a>
+	</div>
+	<div class="livechat-body">
+		<div class="conversation-box">
+			<div class="close-btn"><a href="#"><img src="images/closebtn.jpg" alt="closebtn" width="14" height="14"></a></div>
+			<div class="title">message</div>
+			<textarea></textarea>
+		</div>
+		<div class="comment-box">
+			<div class="title">your message</div>
+			<textarea></textarea>
+		</div>
+	</div>
+	<div class="send-btn">
+		<a href="#"><img src="images/sendbtn.png" alt="sendbtn" width="67" height="24"></a>
+	</div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){
+	var chatWidth = $(".livechat").width();
+	$(".normal a").click(function(){
+		$(".livechat").animate({
+			right : 20 
+		})
+	}).parent().removeClass(".normal").addClass("open");
+	$(".livechat .close-btn").click(function(){
+		$(".livechat").animate({
+			right: -295
+		}).parent().parent().parent().removeClass(".open").addClass(".normal");
+	})
+})
+</script>
+<!-- end Live Chat -->
 </body>
 </html>

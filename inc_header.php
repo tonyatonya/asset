@@ -88,12 +88,12 @@
 				$(document).ready(function(){
 					$(".mainmenu > a").click(function(){
 						var subMenu = $(this).parent().find(".submenu");
-						var Opened = $(this).parent().parent().find(".opened");
-							$(Opened).slideUp().removeClass("opened");
 							if($(subMenu).hasClass("opened")){ 
-								$(subMenu).slideUp().removeClass("opened");	
+								$(".submenu.opened").slideUp().removeClass("opened");
+								
 							}else{
-								$(subMenu).slideDown().addClass("opened");
+								$(".submenu.opened").slideUp().removeClass("opened");
+								$(subMenu).slideToggle().addClass("opened");
 							}
 					})
 				})

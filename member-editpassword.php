@@ -14,12 +14,9 @@
 			<ul>
 				<li><a href="#">หน้าหลัก</a></li>
 				<li><a href="#">สมาชิก</a></li>
-				<li><a href="#">สมัครสมาชิก</a></li>
+				<li><a href="#">แก้ไขรหัสผ่าน</a></li>
 			</ul>
 		</div>
-		<hr>
-		<h2>แก้ไขรหัสผ่าน</h2>
-		
 		<hr>
 		<div class="formsection">
 			<div class="title">ข้อมูลรหัสผ่าน</div>

@@ -35,12 +35,7 @@ body{
 	display: block;
 	visibility: hidden;
 }
-/*
-.mainwrapper{
-	width: 100%;
-	overflow: hidden;
-}
-*/
+
 .wrapper{
 	width: 960px;
 	margin-left: auto;
@@ -1038,4 +1033,39 @@ footer .stat span{
 }
 .job-list > div.show{
 	display: block;
+}
+
+/***** member *****/
+.formsection{
+	display: block;
+	width: 100%;
+	float: left;
+}
+.formsection .title{
+	display: block;
+	clear: both;
+	background-color: #ffc1c1;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	text-indent: 10px;
+}
+.tb-member{
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.tb-member tr td:first-child{
+	width: 120px;
+	text-align: right;
+}
+.tb-member tr td input{
+	display: inline;
+	float: left;
+}
+.tb-member tr td label{
+	float: left;
+	display: inline;
 }

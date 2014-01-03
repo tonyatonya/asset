@@ -14,12 +14,9 @@
 			<ul>
 				<li><a href="#">หน้าหลัก</a></li>
 				<li><a href="#">สมาชิก</a></li>
-				<li><a href="#">สมัครสมาชิก</a></li>
+				<li><a href="#">แก้ไขข้อมูลสมาชิก</a></li>
 			</ul>
 		</div>
-		<hr>
-		<h2>แก้ไขข้อมูลสมาชิก</h2>
-		
 		<hr>
 		<div class="formsection">
 			<div class="title">ข้อมูลส่วนตัว</div>

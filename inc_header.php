@@ -13,7 +13,6 @@
 	<link type="text/css" rel="stylesheet" href="css/reset.css" media="screen,projection"/>
 	<link type="text/css" rel="stylesheet" href="css/dark-hive/jquery-ui-1.8.18.custom.css" media="screen,projection"/>
 	<link rel="stylesheet" type="text/css" href="css/sliderkit-core.css" media="screen, projection" />
-	<!-- <link href="css/bootstrap.css" rel="stylesheet"> -->
 	<link type="text/css" rel="stylesheet" href="css/layout.css" media="screen,projection"/>
 	<link type="text/css" rel="stylesheet" href="css/print.css" media="print"/>
 	<link type="image/ico" rel="shortcut icon" href="images/favicon.ico">
@@ -24,7 +23,6 @@
 	<!-- <script type="text/javascript" src="script/jquery-1.9.1.js"></script> -->
 	<!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script> -->
 	<script type="text/javascript" src="script/jquery-1.10.2.js"></script>
-	<script src="js/bootstrap.js"></script>
 	<div class="wrapper">
 	<header>
 		<div class="lang-sw">
@@ -59,15 +57,26 @@
 				<li class="mainmenu"><a href="#">เกี่ยวกับเรา</a>
 					<div class="submenu">
 						<ul>
-							<li><a href="#">submenu</a></li>
-							<li><a href="#">submenu</a></li>
-							<li><a href="#">submenu</a></li>
-							<li><a href="#">submenu</a></li>
+							<li><a href="#">ประวัติสินทรัพย์ประกันภัย</a></li>
+							<li><a href="#">วิสัยทัศน์ และความมุ่งมั่น</a></li>
+							<li><a href="#">คณะกรรมการบริษัท</a></li>
+							<li><a href="#">คณะผู้บริหาร</a></li>
+							<li><a href="#">ISO : 9001:2008</a></li>
 						</ul>
 					</div>
 				</li>
 				<li class="mainmenu"><a href="products.php">ผลิตภัณฑ์และบริการ</a></li>
-				<li class="mainmenu"><a href="#">ข้อมูลนักลงทุน</a></li>
+				<li class="mainmenu"><a href="#">ข้อมูลนักลงทุน</a>
+					<div class="submenu">
+						<ul>
+							<li><a href="#">ประวัติสินทรัพย์ประกันภัย</a></li>
+							<li><a href="#">วิสัยทัศน์ และความมุ่งมั่น</a></li>
+							<li><a href="#">คณะกรรมการบริษัท</a></li>
+							<li><a href="#">คณะผู้บริหาร</a></li>
+							<li><a href="#">ISO : 9001:2008</a></li>
+						</ul>
+					</div>
+				</li>
 				<li class="mainmenu"><a href="news.php">ข่าวสารและกิจกรรม</a></li>
 				<li class="mainmenu"><a href="#">ร่วมงานกับเรา</a></li>
 				<li class="mainmenu"><a href="contactus-head.php">ติดต่อเรา</a></li>
@@ -77,8 +86,15 @@
 			</div>
 			<script type="text/javascript">
 				$(document).ready(function(){
-					$(".mainmenu a").click(function(){
-						
+					$(".mainmenu > a").click(function(){
+						var subMenu = $(this).parent().find(".submenu");
+						var Opened = $(this).parent().parent().find(".opened");
+							$(Opened).slideUp().removeClass("opened");
+							if($(subMenu).hasClass("opened")){ 
+								$(subMenu).slideUp().removeClass("opened");	
+							}else{
+								$(subMenu).slideDown().addClass("opened");
+							}
 					})
 				})
 			</script>

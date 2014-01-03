@@ -46,8 +46,8 @@
 					</a>
 				</div>
 				<div class="reg">
-					<a href="#"><img src="images/reigistor.jpg" alt="reigistor" width="92" height="16" /></a>
-					<a href="#"><img src="images/forgotpassword.jpg" alt="forgotpassword" width="92" height="16" /></a>
+					<a href="member.php"><img src="images/reigistor.jpg" alt="reigistor" width="92" height="16" /></a>
+					<a href="member-lostpassword.php"><img src="images/forgotpassword.jpg" alt="forgotpassword" width="92" height="16" /></a>
 				</div>
 			</div>
 		</div>

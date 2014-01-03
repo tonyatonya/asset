@@ -23,10 +23,16 @@
 			<h2>ข่าวสินทรัพย์</h2>
 		</div>
 		<div class="top-news">
-			<div class="news-img"><img src="images/newsimg.jpg" alt="newsimg" width="260" height="175"></div>
+			<div class="news-img">
+				<a href="news-detail.php">
+					<img src="images/newsimg.jpg" alt="newsimg" width="260" height="175">
+				</a>
+			</div>
 			<div class="news-detail">
 				<div class="title">สินทรัพย์รักษ์โลก “Assets Loves Earth”</div>
+				<a href="news-detail.php">
 				<p>คุณบังอร มี้เจริญ กรรมการผู้จัดการ บมจ. สินทรัพย์ประกันภัย นำทีมพนักงาน จัดโครงการ สินทรัพย์รักษ์โลก Assets Loves Earth" ปลูกปะการัง ในเขตอนุรักษ์</p>
+				</a>
 				<ul class="content-stat">
 					<li>999 viewed</li>
 					<li>2/7/2556</li>
@@ -39,21 +45,21 @@
 				<span>ข่าวสารและกิจกรรม</span>
 			</div>
 			<div class="left">
-				<div class="news-img"></div>
+				<div class="news-img"><a href="news-detail.php"><img src="images/newsimg.jpg" alt="newsimg" width="211" height="155"></a></div>
 					<div class="news-title">แนะนำประกันภัยรถยนต์รูปแบบใหม่</div>
 					<div class="news-lead">สินทรัพย์ประกันภัย ขอแนะนำประกันภัยรถยนต์
 รูปแบบใหม่ ประกันภัย 2 บวก</div>
 			</div>
 			<div class="right">
 				<ul class="arrow-bullet">
-					<li><a href="#">news title link</a></li>
-					<li><a href="#">news title link</a></li>
-					<li><a href="#">news title link</a></li>
-					<li><a href="#">news title link</a></li>
-					<li><a href="#">news title link</a></li>
-					<li><a href="#">news title link</a></li>
-					<li><a href="#">news title link</a></li>
-					<li><a href="#">news title link</a></li>
+					<li><a href="news-detail.php">news title link</a></li>
+					<li><a href="news-detail.php">news title link</a></li>
+					<li><a href="news-detail.php">news title link</a></li>
+					<li><a href="news-detail.php">news title link</a></li>
+					<li><a href="news-detail.php">news title link</a></li>
+					<li><a href="news-detail.php">news title link</a></li>
+					<li><a href="news-detail.php">news title link</a></li>
+					<li><a href="news-detail.php">news title link</a></li>
 				</ul>
 			</div>
 		</div>

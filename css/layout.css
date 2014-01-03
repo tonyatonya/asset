@@ -28,6 +28,12 @@ body{
 	background-repeat: repeat-x;
 	background-position: left top;
 }
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
 .clear:after{
 	content: "";
 	width: 100%;
@@ -958,6 +964,17 @@ footer .stat span{
 	color: #898989;
 	font-size: 1.1em;
 }
+.news-img-first{
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.news-heading{
+	color: red;
+	font-size: 25px;
+	width: 100%;
+	height: auto;
+}
 .form-section{
 	width: 100%;
 	height:35px;
@@ -1034,8 +1051,25 @@ footer .stat span{
 .job-list > div.show{
 	display: block;
 }
-
 /***** member *****/
+.member-lead{
+	width: 100%;
+	display: block;
+	clear: both;
+}
+.member-lead h2{
+	color: #ca0000;
+	font-size: 22px;
+	font-weight: bold;
+}
+.member-lead p{
+	color: #646464;
+	text-indent: 30px;	
+}
+.member-lead h3{
+	font-weight: bold;
+	color: red;
+}
 .formsection{
 	display: block;
 	width: 100%;
@@ -1057,15 +1091,47 @@ footer .stat span{
 	margin-left: auto;
 	margin-right: auto;
 }
+.tb-member tr td{
+	height: 20px;
+	line-height: 20px;
+	vertical-align: middle;
+	border:5px solid white;
+}
 .tb-member tr td:first-child{
 	width: 120px;
+	padding-right: 10px;
 	text-align: right;
 }
-.tb-member tr td input{
+
+.tb-member input[type="text"],.tb-member input[type="password"],tb-member input[type="date"],.tb-member input[type="radio"],.tb-member select{
 	display: inline;
 	float: left;
+	height: 20px;
+	border-radius: 5px;
+	border: 1px solid #c4c4c4;
 }
-.tb-member tr td label{
+.tb-member select{
+	height: 20px;
+	margin-top: 5px;
+}
+.tb-member input[type="radio"]{
+	height: 20px;
+	margin-top: 5px;
+}
+.tb-member label{
 	float: left;
 	display: inline;
+	line-height: 30px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.tb-member .maxWidth{
+	width: 100%;
+}
+.tb-member .halfWidth{
+	width: 120px;
+}
+.btn-holder{
+	text-align: center;
+	margin-top: 30px;
 }

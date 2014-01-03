@@ -18,28 +18,14 @@
 			</ul>
 		</div>
 		<hr>
-		<h2>แบบฟอร์มการลงทะเบียนเป็นสมาชิก</h2>
-		<p>
-			ท่านสามารถกรอกรายละเอียดลงทะเบียนเป็นสมาชิก เพื่อรับโปรโมชั่น และสิทธิพิเศษต่างๆ เมื่อซื้อประกันภัยกับเรา โดยไม่มีค่าใช้จ่ายในการสมัคร
-		</p>
-		<h3>
-			กรุณากรอกข้อมูลของท่านคามความเป็นจริงลงในแบบฟอร์มด้านล่าง
-			<span>(ส่วนล่างของแบบฟอร์มที่มีเครื่องหมาย "*" หมายถึงข้อมูลสำคัญที่ท่านต้องกรอก)</span>
-		</h3>
+		<h2>แก้ไขข้อมูลสมาชิก</h2>
+		
 		<hr>
 		<div class="formsection">
 			<div class="title">ข้อมูลส่วนตัว</div>
 			<table class="tb-member">
 				<tr>
 					<td>ชื่ออีเมล์</td>
-					<td><input type="text" class="maxWidth"></td>
-				</tr>
-				<tr>
-					<td>รหัสผ่านที่ต้องการ</td>
-					<td><input type="text" class="maxWidth"></td>
-				</tr>
-				<tr>
-					<td>ยืนยันรหัสผ่าน</td>
 					<td><input type="text" class="maxWidth"></td>
 				</tr>
 				<tr>
@@ -127,8 +113,8 @@
 				 <span>หมายเหตุ : </span> หากมีการกรอกข้อมูลครบถ้วนจะสะดวกในการซื้อประกันภัยในครั้งถัดไป
 			</div>
 			<div class="btn-holder">
-				<input  type="submit" value="ยกเลิก">
-				<input  type="submit" value="ยืนยันการสมัคร">
+				<input  type="submit" value="ยกเลิกการแก้ไข">
+				<input  type="submit" value="ยืนยันการแก้ไข">
 			</div>
 		</div>
 	</section>

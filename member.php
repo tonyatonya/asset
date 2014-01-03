@@ -87,6 +87,45 @@
 					</td>
 				</tr>
 			</table>
+			<div class="title">สถานที่ติดต่อ (ที่สามารถติดต่อได้)</div>
+			<table class="tb-member">
+				<tr>
+					<td>ที่อยู่</td>
+					<td><input type="text" class="maxWidth"></td>
+				</tr>
+				<tr>
+					<td>แขวง/ตำบล</td>
+					<td><input type="text" class="maxWidth"></td>
+				</tr>
+				<tr>
+					<td>เขต/อำเภอ</td>
+					<td><input type="text" class="maxWidth"></td>
+				</tr>
+				<tr>
+					<td>จังหวัด</td>
+					<td>
+						<select>
+							<option>กรุณาเลือกจังหวัด</option>
+						</select>
+						<label>รหัสไปรษณีย์</label><input type="text" class="halfWidth">
+					</td>
+				</tr>
+				<tr>
+					<td>โทรศัพท์</td>
+					<td><input type="text" class="halfWidth"></td>
+				</tr>
+				<tr>
+					<td>โทรศัพท์มือถือ</td>
+					<td><input type="text" class="halfWidth"></td>
+				</tr>
+				<tr>
+					<td>โทรสาร</td>
+					<td><input type="text" class="halfWidth"></td>
+				</tr>
+			</table>
+			<div class="remark">
+				 <span>หมายเหตุ : </span> หากมีการกรอกข้อมูลครบถ้วนจะสะดวกในการซื้อประกันภัยในครั้งถัดไป
+			</div>
 		</div>
 	</section>
 </div>

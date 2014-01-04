@@ -1056,6 +1056,36 @@ footer .stat span{
 .job-list > div.show{
 	display: block;
 }
+.job-list .position-name{
+	width: 90%;
+	margin-bottom: 10px;
+	list-style: none;
+	background-color: #e9f7ff;
+	border:1px solid #beddf6;
+	border-radius: 10px;
+	overflow: hidden;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	cursor: pointer;
+}
+.job-list .position-name:hover{
+	background-color: #c2e8ff;
+}
+.job-list .position-name a{
+	color: #ce0000;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 18px;
+}
+.job-list .position-name a span{
+	color: #646464;
+	font-weight: 100;
+}
+.job-list .position-name .temp{
+	float: right;
+	display: inline;
+}
 /***** member *****/
 .member-lead{
 	width: 100%;

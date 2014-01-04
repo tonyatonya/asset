@@ -25,9 +25,9 @@
 					<span>สอบถามรายละเอียดเพิ่มเติม<br>ฝ่ายทรัพยากรบุคคล 0-2792-5558</span>
 				</div>
 		</div>
-		<ul class="job-list">
+		<ul class="job-list" style="margin-top:30px;">
 			<li class="position-name">
-				<a href="#">เจ้าหน้าที่ลูกค้าสัมพันธ์</a> <div class="temp">จำนวน 2 อัตรา</div>
+				<a href="#">เจ้าหน้าที่ลูกค้าสัมพันธ์ <span>คลิกเพื่อดูรายละเอียด</span></a> <div class="temp">จำนวน 2 อัตรา</div>
 				<div class="job-detail">
 					<div class="job-topic">รายละเอียด</div>
 						<ul>
@@ -46,7 +46,7 @@
 				</div>
 			</li>
 			<li class="position-name">
-				<a href="#">เจ้าหน้าที่ลูกค้าสัมพันธ์</a> <div class="temp">จำนวน 2 อัตรา</div>
+				<a href="#">เจ้าหน้าที่ลูกค้าสัมพันธ์ <span>คลิกเพื่อดูรายละเอียด</span></a> <div class="temp">จำนวน 2 อัตรา</div>
 				<div class="job-detail">
 					<div class="job-topic">รายละเอียด</div>
 						<ul>
@@ -61,10 +61,11 @@
 							<li>มีประสบการณ์ด้านการประกันภัย จะพิจารณาเป็นพิเศษ</li>
 						</ul>
 					<div class="job-topic">ประกาศเมื่อ : 18 มีนาคม 2556</div>
+					<div class="btn-holder"><input type="submit" value="สนใจสมัครตำแหน่งงานนี้"></div>
 				</div>
 			</li>
 			<li class="position-name">
-				<a href="#">เจ้าหน้าที่ลูกค้าสัมพันธ์</a> <div class="temp">จำนวน 2 อัตรา</div>
+				<a href="#">เจ้าหน้าที่ลูกค้าสัมพันธ์ <span>คลิกเพื่อดูรายละเอียด</span></a> <div class="temp">จำนวน 2 อัตรา</div>
 				<div class="job-detail">
 					<div class="job-topic">รายละเอียด</div>
 						<ul>
@@ -79,14 +80,34 @@
 							<li>มีประสบการณ์ด้านการประกันภัย จะพิจารณาเป็นพิเศษ</li>
 						</ul>
 					<div class="job-topic">ประกาศเมื่อ : 18 มีนาคม 2556</div>
+					<div class="btn-holder"><input type="submit" value="สนใจสมัครตำแหน่งงานนี้"></div>
+				</div>
+			</li>
+			<li class="position-name">
+				<a href="#">เจ้าหน้าที่ลูกค้าสัมพันธ์ <span>คลิกเพื่อดูรายละเอียด</span></a> <div class="temp">จำนวน 2 อัตรา</div>
+				<div class="job-detail">
+					<div class="job-topic">รายละเอียด</div>
+						<ul>
+							<li>ปฎิบัติการด้านการเงิน</li>
+							<li>ประจำสำนักงานใหญ่</li>
+							<li>สามารถใช้ MS Office ได้เป็นอย่างดี</li>
+						</ul>
+					<div class="job-topic">ประเภทสัญญาจ้าง : งานประจำ</div>
+					<div class="job-topic">คุณสมบัติ</div>
+						<ul>
+							<li>วุฒิการศึกษา : ปริญญาตรี สาขาบัญชีหรือสาขาอื่นๆ ที่เกี่ยวข้อง</li>
+							<li>มีประสบการณ์ด้านการประกันภัย จะพิจารณาเป็นพิเศษ</li>
+						</ul>
+					<div class="job-topic">ประกาศเมื่อ : 18 มีนาคม 2556</div>
+					<div class="btn-holder"><input type="submit" value="สนใจสมัครตำแหน่งงานนี้"></div>
 				</div>
 			</li>
 		</ul>
 		<script type="text/javascript">
 			$(document).ready(function(){
-				$(".position-name a").click(function(e){
-					var listDetail = $(this).parent().find(".job-detail");
-					if($(".job-detail").hasClass("opened")){
+				$(".position-name ").click(function(e){
+					var listDetail = $(this).find(".job-detail");
+					if($(listDetail).hasClass("opened")){
 						$(".job-detail.opened").slideUp().removeClass("opened");
 					}else{
 						$(".job-detail.opened").slideUp().removeClass("opened");

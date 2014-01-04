@@ -42,6 +42,7 @@
 							<li>มีประสบการณ์ด้านการประกันภัย จะพิจารณาเป็นพิเศษ</li>
 						</ul>
 					<div class="job-topic">ประกาศเมื่อ : 18 มีนาคม 2556</div>
+					<div class="btn-holder"><input type="submit" value="สนใจสมัครตำแหน่งงานนี้"></div>
 				</div>
 			</li>
 			<li class="position-name">
@@ -83,9 +84,15 @@
 		</ul>
 		<script type="text/javascript">
 			$(document).ready(function(){
-				$(".job-list li a").click(function(e){
-					$(this).parent().find(".show").removeClass("show");
-					var listDetail = $(this).find(".job-topic").addClass("show").slideToggle();
+				$(".position-name a").click(function(e){
+					var listDetail = $(this).parent().find(".job-detail");
+					if($(".job-detail").hasClass("opened")){
+						$(".job-detail.opened").slideUp().removeClass("opened");
+					}else{
+						$(".job-detail.opened").slideUp().removeClass("opened");
+						$(listDetail).slideToggle().addClass("opened");
+					}
+					e.preventDefault();
 				});
 			});
 		</script>

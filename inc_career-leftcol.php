@@ -2,8 +2,8 @@
 	<div class="title"><h2>ร่วมงานกับเรา</h2></div>
 	<!-- <div class="title"><img src="images/contact-title.png" alt="product-title" width="326" height="62" /></div> -->
 	<ul>
-		<li><a href="contactus-head.php"><div class="ico"><img src="images/exampleicon.png" alt="exampleicon" width="46" height="46" /></div><div>ตำแหน่งงานว่าง</div></a></li>
-		<li><a href="complain.php"><div class="ico"><img src="images/exampleicon.png" alt="exampleicon" width="46" height="46" /></div><div>สมัครงานออนไลน์</div></a></li>
+		<li><a href="career-list.php"><div class="ico"><img src="images/exampleicon.png" alt="exampleicon" width="46" height="46" /></div><div>ตำแหน่งงานว่าง</div></a></li>
+		<li><a href="career-form.php"><div class="ico"><img src="images/exampleicon.png" alt="exampleicon" width="46" height="46" /></div><div>สมัครงานออนไลน์</div></a></li>
 	</ul>
 </div>
 <?php require('inc_calculatebanner.php'); ?>

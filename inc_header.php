@@ -78,7 +78,7 @@
 					</div>
 				</li>
 				<li class="mainmenu"><a href="news.php">ข่าวสารและกิจกรรม</a></li>
-				<li class="mainmenu"><a href="#">ร่วมงานกับเรา</a></li>
+				<li class="mainmenu"><a href="career-list.php">ร่วมงานกับเรา</a></li>
 				<li class="mainmenu"><a href="contactus-head.php">ติดต่อเรา</a></li>
 			</ul>
 			<div class="input-holder round">
@@ -86,7 +86,7 @@
 			</div>
 			<script type="text/javascript">
 				$(document).ready(function(){
-					$(".mainmenu > a").click(function(){
+					$(".mainmenu > a").click(function(e){
 						var subMenu = $(this).parent().find(".submenu");
 							if($(subMenu).hasClass("opened")){ 
 								$(".submenu.opened").slideUp().removeClass("opened");
@@ -95,6 +95,7 @@
 								$(".submenu.opened").slideUp().removeClass("opened");
 								$(subMenu).slideToggle().addClass("opened");
 							}
+							e.preventDefault();
 					})
 				})
 			</script>

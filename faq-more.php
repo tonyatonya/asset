@@ -28,11 +28,11 @@
 		</div>
 		<div class="tab-menu">
 			<ul>
-				<li class="active"><a href="#">กรมธรรม์</a></li>
-				<li><a href="#">เคลม</a></li>
-				<li><a href="#">นโยบาย</a></li>
-				<li><a href="#">เรื่องอื่นๆ</a></li>
-				<li><a href="#">สอบถามเพิ่มเติม</a></li>
+				<li class="active"><a href="faq.php">กรมธรรม์</a></li>
+				<li><a href="faq.php">เคลม</a></li>
+				<li><a href="faq.php">นโยบาย</a></li>
+				<li><a href="faq.php">เรื่องอื่นๆ</a></li>
+				<li><a href="faq-more.php">สอบถามเพิ่มเติม</a></li>
 			</ul>
 </div>
 		<div class="clear"></div>

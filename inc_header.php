@@ -58,9 +58,10 @@
 					<div class="submenu">
 						<ul>
 							<li><a href="#">ประวัติสินทรัพย์ประกันภัย</a></li>
-							<li><a href="#">วิสัยทัศน์ และความมุ่งมั่น</a></li>
-							<li><a href="#">คณะกรรมการบริษัท</a></li>
-							<li><a href="#">คณะผู้บริหาร</a></li>
+							<li><a href="#">วิสัยทัศน์ และพันธกิจ</a></li>
+							<li><a href="#">คณะกรรมการตรวจสอบ</a></li>
+							<li><a href="#">คณะกรรมการการลงทุน</a></li>
+							<li><a href="#">นโยบายบริษัท</a></li>
 							<li><a href="#">ISO : 9001:2008</a></li>
 						</ul>
 					</div>
@@ -69,24 +70,36 @@
 				<li class="mainmenu"><a href="#">ข้อมูลนักลงทุน</a>
 					<div class="submenu">
 						<ul>
-							<li><a href="#">ประวัติสินทรัพย์ประกันภัย</a></li>
-							<li><a href="#">วิสัยทัศน์ และความมุ่งมั่น</a></li>
-							<li><a href="#">คณะกรรมการบริษัท</a></li>
-							<li><a href="#">คณะผู้บริหาร</a></li>
-							<li><a href="#">ISO : 9001:2008</a></li>
+							<li><a href="#">รายงานประจำปี</a></li>
+							<li><a href="#">ฐานะทางการเงินและผลการดำเนินงาน</a></li>
 						</ul>
 					</div>
 				</li>
 				<li class="mainmenu"><a href="news.php">ข่าวสารและกิจกรรม</a></li>
-				<li class="mainmenu"><a href="career-list.php">ร่วมงานกับเรา</a></li>
-				<li class="mainmenu"><a href="contactus-head.php">ติดต่อเรา</a></li>
+				<li class="mainmenu"><a href="career-list.php">ร่วมงานกับเรา</a>
+					<div class="submenu">
+						<ul>
+							<li><a href="career-list.php">ตำแหน่งงานว่าง</a></li>
+							<li><a href="career-form.php">สมัครงานออนไลน์</a></li>
+						</ul>
+					</div>
+				</li>
+				<li class="mainmenu"><a href="#">ติดต่อเรา</a>
+					<div class="submenu">
+						<ul>
+							<li><a href="contactus-head.php">ที่อยู่และการติดต่อ</a></li>
+							<li><a href="complain.php">ข้อเสนอแนะ</a></li>
+							<li><a href="faq.php">FAQ</a></li>
+						</ul>
+					</div>
+				</li>
 			</ul>
 			<div class="input-holder round">
 				<input  type="text" placeholder="search">
 			</div>
 			<script type="text/javascript">
 				$(document).ready(function(){
-					$(".mainmenu > a").click(function(e){
+					$(".mainmenu > a").click(function(){
 						var subMenu = $(this).parent().find(".submenu");
 							if($(subMenu).hasClass("opened")){ 
 								$(".submenu.opened").slideUp().removeClass("opened");
@@ -95,7 +108,7 @@
 								$(".submenu.opened").slideUp().removeClass("opened");
 								$(subMenu).slideToggle().addClass("opened");
 							}
-							e.preventDefault();
+							
 					})
 				})
 			</script>

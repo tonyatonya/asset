@@ -34,6 +34,22 @@ a{
 a:hover{
 	text-decoration: underline;
 }
+p{
+	text-indent: 20px;
+	text-align: justify;
+	font-size: 18px;
+}
+p span.hilight{
+	color: #c50000;
+	font-weight: bold;
+}
+img.wrap-right{
+	float: left;
+	display: inline;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
 .clear:after{
 	content: "";
 	width: 100%;
@@ -1137,7 +1153,6 @@ footer .stat span{
 	padding-right: 10px;
 	text-align: right;
 }
-
 .tb-member input[type="text"],.tb-member input[type="password"],tb-member input[type="date"],.tb-member input[type="radio"],.tb-member select{
 	display: inline;
 	float: left;

@@ -2,7 +2,7 @@
 	<div class="title"><h2>เกี่ยวกับเรา</h2></div>
 	<!-- <div class="title"><img src="images/contact-title.png" alt="product-title" width="326" height="62" /></div> -->
 	<ul>
-		<li><a href="#"><div class="ico"><img src="images/exampleicon.png" alt="exampleicon" width="46" height="46" /></div><div>ประวัติสินทรัพย์ประกันภัย</div></a></li>
+		<li><a href="#"><div class="ico"><img src="images/exampleicon.png" alt="exampleicon" width="46" height="46" /></div><div>ประวัติของสินทรัพย์ประกันภัย</div></a></li>
 		<li><a href="#"><div class="ico"><img src="images/exampleicon.png" alt="exampleicon" width="46" height="46" /></div><div>วิสัยทัศน์ และ พันธกิจ</div></a></li>
 		<li><a href="#"><div class="ico"><img src="images/exampleicon.png" alt="exampleicon" width="46" height="46" /></div><div>คณะกรรมการตรวจสอบ</div></a></li>
 		<li><a href="#"><div class="ico"><img src="images/exampleicon.png" alt="exampleicon" width="46" height="46" /></div><div>คณะกรรมการการลงทุน</div></a></li>

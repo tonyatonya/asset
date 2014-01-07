@@ -37,9 +37,14 @@ a:hover{
 p{
 	text-indent: 20px;
 	text-align: justify;
-	font-size: 18px;
+	font-size: 1.2em;
 }
 p span.hilight{
+	color: #c50000;
+	font-weight: bold;
+}
+.aboutus h3{
+	font-size: 1.5em;
 	color: #c50000;
 	font-weight: bold;
 }
@@ -1184,4 +1189,15 @@ footer .stat span{
 .btn-holder{
 	text-align: center;
 	margin-top: 30px;
+}
+.rednum{
+	color: #c50000;
+	font-size: 1.2em;
+}
+.rednum li{
+	margin-left: 50px;
+	margin-bottom: 20px;
+}
+.rednum span{
+	color: black;
 }

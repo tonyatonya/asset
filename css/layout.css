@@ -1201,3 +1201,62 @@ footer .stat span{
 .rednum span{
 	color: black;
 }
+.cal-tb{
+	width: 350px;
+	height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+.cal-tb .select-holder{
+	margin-top: 10px;
+}
+.cal-tb tr td{
+	line-height: 30px;
+}
+.cal-tb tr td:first-child{
+	width: 150px;
+	text-align: right;
+	padding-right: 10px;
+}
+.result-box{
+	border: 1px solid black;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding-bottom: 20px;
+}
+.result-box .title{
+	font-size: 1.4em;
+	margin-left: 10px;
+	margin-top: 10px;
+	font-weight: bold;
+}
+.result-box .cal-tb td{
+	font-size: 1.2em;
+}
+.result-box .cal-tb tr td:nth-child(2){
+	color: #0057a8;
+}
+.result-box .cal-tb tr:last-child td{
+	color: red;
+	font-weight: bold;
+}
+.form-nav{
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.form-nav tr td:first-child{
+	width: 150px;
+	font-size: 1.3em;
+	white-space: nowrap;
+	color: #c50000;
+}
+.form-nav ul li{
+	list-style: none;
+	float: left;
+	margin-left: 10px;
+}

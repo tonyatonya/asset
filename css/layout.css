@@ -1260,3 +1260,35 @@ footer .stat span{
 	float: left;
 	margin-left: 10px;
 }
+.calform .title{
+	background-color:#e4e4e4;
+}
+.calform select{
+	background: transparent;
+	border: none;
+}
+.calform .minWidth{
+	width: 50px;
+}
+.calform .halfWidth{
+	width: 180px;
+}
+.calform input[type="text"]{
+	border-radius: 0;
+}
+.calform .tb-member{
+	width: 500px;
+}
+.calform .tb-member td:first-child{
+	white-space: nowrap;
+	padding-right: 0;
+}
+.remark.calform{
+	color: #646464;
+}
+.remark.calform span{
+	color: red;
+}
+.remark.calform li{
+	margin-left: 30px;
+}

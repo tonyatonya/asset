@@ -14,7 +14,7 @@
 			<ul>
 				<li><a href="#">หน้าหลัก</a></li>
 				<li><a href="#">คำนวณเบี้ยประกัน</a></li>
-				<li>ประกันภัยรถยนต์ประเภท 3 รวม พรบ.</li>
+				<li>ประกันภัยรถยนต์ประเภท 2 พิเศษ</li>
 			</ul>
 		</div>
 		<hr>
@@ -23,15 +23,17 @@
 			<h2>คำนวณเบี้ยประกัน</h2>		
 		</div>
 		<div class="clear" style="height:20px;"></div>
-		<h3>ประกันภัยรถยนต์ประเภท 3 รวม พรบ.</h3>
+		<h3>ประกันภัยรถยนต์ประเภท 2 พิเศษ</h3>
 		<table class="cal-tb">
 			<tr>
 				<td>เลือกประเภทความคุ้มครอง</td>
 				<td>
 					<div class="select-holder">
 				 		<select>
-				 			<option>Assets 1</option>
-				 			<option>Assets 2</option>
+				 			<option>แบบที่ 1</option>
+				 			<option>แบบที่ 2</option>
+				 			<option>แบบที่ 3</option>
+				 			<option>แบบที่ 4</option>
 				 		</select>		
 				 	</div>
 				</td>
@@ -71,9 +73,7 @@
 				<td>
 					<div class="select-holder">
 				 		<select>
-				 			<option>รถเก๋งไม่เกิน 5 ที่นั่ง</option>
-				 			<option>รถโดยสารไม่เกิน 6 ที่นั่ง</option>
-				 			<option>รถบรรทุกไม่เกิน 3 ตัน</option>
+				 			<option>ตัวเลือก</option>
 				 		</select>		
 				 	</div>
 				</td>

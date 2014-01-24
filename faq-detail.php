@@ -19,8 +19,11 @@
 	</div>
 	<div class="section question-section">
 		<div class="section-info">
-			<div class="section-title">คำถาม :</div>
-		<div class="section-date">21/10/56</div>
+			<div class="section-title">คำถาม : </div>
+			<div class="section-date">21/10/56</div>
+			<div class="section-content">
+				<p>อ้างถึง การเพิ่มชื่อผู้ขับขี่เพิ่มเติม..โทรไม่ติดเลยครับ</p>
+			</div>
 		</div>
 		<div class="section-content"></div>
 	</div>
@@ -40,7 +43,7 @@
 </html>
 <style>
 .faq-body{
-	max-width: 500px;
+	max-width: 600px;
 	min-width: 320px;
 	margin-left: auto;
 	margin-right: auto;
@@ -66,7 +69,7 @@
 .quiz-mode{
 	display: inline;
 	float: left;
-	width: 60%;
+	/* width: 60%; */
 }
 .quiz-form{
 	width: 30%;
@@ -74,7 +77,25 @@
 	float: right;
 }
 .question-section{
-	background-color: #ffbaba;
+	background-color: #ff9999;
+	padding: 5px;
 }
-
+.quiz-mode span, .quiz-form span{
+	color: #b40000;
+}
+.section-title{
+	width: 80%;
+	display: inline;
+}
+.section-date{
+	width: 10%;
+	color: white;
+	display: inline;
+	float: right;
+}
+.answer-section{
+	background-color: #e1e1e1;
+	padding: 5px;
+	margin-top: 10px;
+}
 </style>

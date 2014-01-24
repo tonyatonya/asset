@@ -29,7 +29,14 @@
 	</div>
 	<div class="section answer-section">
 		<div class="section-title">รายละเอียด :</div>
-		<div class="section-content"></div>
+		<div class="section-content">
+			<p>
+				ผมทำประกันชั้น 1 อยู่ โดยใช้เงื่อนไขผู้ขับขี่คนเดียว (ระบุชื่อผู้ขับขี่) แต่ปัจจุบันผมต้องการเพิ่มชื่อผู้ขับขี่เป็น 2 คน
+จะสามารถทำได้หรือไม่
+	1) ประกันหมดอายุ กุมภาพันธ์ 2557
+	2) หากสามารถทำได้ทันที ต้องจ่ายเบี้ยประกันเพิ่มหรือไม่ จำนวนเท่าไร
+			</p>
+		</div>
 	</div>
 	<div class="section quiz-meta">
 		<div class="section-title">คำตอบจากสินทรัพย์ประกันภัย :<span>โดยแผนกลูกค้าสัมพันธ์</span></div>
@@ -95,6 +102,11 @@
 }
 .answer-section{
 	background-color: #e1e1e1;
+	padding: 5px;
+	margin-top: 10px;
+}
+.quiz-meta{
+	background-color: #f5f5f5;
 	padding: 5px;
 	margin-top: 10px;
 }

@@ -76,7 +76,7 @@
 					</div>
 				</li>
 				<li class="mainmenu"><a href="news.php">ข่าวสารและกิจกรรม</a></li>
-				<li class="mainmenu"><a href="career-list.php">ร่วมงานกับเรา</a>
+				<li class="mainmenu"><a href="#">ร่วมงานกับเรา</a>
 					<div class="submenu">
 						<ul>
 							<li><a href="career-list.php">ตำแหน่งงานว่าง</a></li>

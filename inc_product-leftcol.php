@@ -1,9 +1,16 @@
 <div class="category-menu">
 	<div class="title"><h2>ผลิตภัณฑ์</h2></div>
 	<ul>
-		<li><a href="#"><div class="ico"><img src="images/exampleicon.png" alt="exampleicon" width="46" height="46" /></div><div>menuname</div></a></li>
-		<li><a href="#"><div class="ico"><img src="images/exampleicon.png" alt="exampleicon" width="46" height="46" /></div><div>menuname</div></a></li>
-		<li><a href="#"><div class="ico"><img src="images/exampleicon.png" alt="exampleicon" width="46" height="46" /></div><div>menuname</div></a></li>
+		<li><a href="#"><div class="ico"><img src="images/exampleicon.png" alt="exampleicon" width="46" height="46" /></div><div>ประกันภัยรถยนต์ประเภท 1 พิเศษ</div></a></li>
+		<li><a href="#"><div class="ico"><img src="images/exampleicon.png" alt="exampleicon" width="46" height="46" /></div><div>ประกันภัยรถยนต์ประเภท 3 รวมพรบ.</div></a></li>
+		<li><a href="#"><div class="ico"><img src="images/exampleicon.png" alt="exampleicon" width="46" height="46" /></div><div>ประกันภัยรถยนต์ประเภท 3 พิเศษ</div></a></li>
+		<li><a href="#"><div class="ico"><img src="images/exampleicon.png" alt="exampleicon" width="46" height="46" /></div><div>ประกันภัยรถยนต์ประเภท 2 พิเศษ</div></a></li>
+		<li><a href="#"><div class="ico"><img src="images/exampleicon.png" alt="exampleicon" width="46" height="46" /></div><div>ประกันภัยผู้เล่นกอล์ฟ</div></a></li>
+		<li><a href="#"><div class="ico"><img src="images/exampleicon.png" alt="exampleicon" width="46" height="46" /></div><div>ประกันภัยอุบัติเหตุส่วนบุคคล</div></a></li>
+		<li><a href="#"><div class="ico"><img src="images/exampleicon.png" alt="exampleicon" width="46" height="46" /></div><div>ประกันภัยอุบัติเหตุการเดินทาง</div></a></li>
+		<li><a href="#"><div class="ico"><img src="images/exampleicon.png" alt="exampleicon" width="46" height="46" /></div><div>ประกันภัยคนรักบ้าน</div></a></li>
+		<li><a href="#"><div class="ico"><img src="images/exampleicon.png" alt="exampleicon" width="46" height="46" /></div><div>ประกันภัยเบ็ดเตล็ดคุ้มครองผู้ค้าอัญมณี</div></a></li>
+		
 	</ul>
 </div>
 <?php require('inc_calculatebanner.php'); ?>

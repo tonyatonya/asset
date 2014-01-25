@@ -722,7 +722,8 @@ footer .stat span{
 }
 .product-banner{
 	width: 630px;
-	height: 205px;
+	/* height: 205px; */
+	height: auto;
 }
 .tab-menu{
 	width: 100%;
@@ -732,6 +733,7 @@ footer .stat span{
 	clear: both;
 	float: left;
 	border-bottom: 1px solid #c4c4c4;
+	margin-bottom: 10px;
 }
 .tab-menu ul li{
 	list-style: none;
@@ -759,6 +761,18 @@ footer .stat span{
 }
 .tab-menu ul li.active a{
 	background-color: #fc7474;
+}
+.product-content{
+	width: 100%;
+	height: 50px;
+	display: block;
+	clear: both;
+}
+.product-content:after{
+	content: "";
+	clear: both;
+	display: block;
+	visibility: hidden;
 }
 .contact-detail li{
 	list-style: none;
@@ -1292,4 +1306,11 @@ footer .stat span{
 }
 .remark.calform li{
 	margin-left: 30px;
+}
+
+/********* product-content style *****************/
+.product-content h3{
+	color: #c50000;
+	font-size: 1.3em;
+	font-weight: bold;
 }

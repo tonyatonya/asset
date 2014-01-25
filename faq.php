@@ -2,6 +2,13 @@
 <!DOCTYPE html>
 <html lang="">
 <head><?php require('inc_header.php'); ?></head>
+<script type="text/javascript" src="js/jquery.colorbox.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		$(".faq-tb a").colorbox();
+	})
+</script>
 <body>
 <div class="wrapper otherpage contact">
 <div class="redbar"></div>
@@ -48,27 +55,52 @@
 		<table class="faq-tb">
 			<tr><th>หัวข้อ</th><th>ดูแล้ว</th><th>วันที่อัพเดต</th></tr>
 			<tr>
-				<td><a href="#">การเพิ่มชื่อผู้ขับขี่เพิ่มเติม</a><span>โดยคุณ จุไรวลัยพร</span></td>
+				<td><a href="faq-detail.php">การเพิ่มชื่อผู้ขับขี่เพิ่มเติม</a><span>โดยคุณ จุไรวลัยพร</span></td>
 				<td>999</td>
 				<td>20/10/56</td>
 			</tr>
 			<tr>
-				<td><a href="#">การเพิ่มชื่อผู้ขับขี่เพิ่มเติม</a><span>โดยคุณ จุไรวลัยพร</span></td>
+				<td><a href="faq-detail.php">การเพิ่มชื่อผู้ขับขี่เพิ่มเติม</a><span>โดยคุณ จุไรวลัยพร</span></td>
 				<td>999</td>
 				<td>20/10/56</td>
 			</tr>
 			<tr>
-				<td><a href="#">การเพิ่มชื่อผู้ขับขี่เพิ่มเติม</a><span>โดยคุณ จุไรวลัยพร</span></td>
+				<td><a href="faq-detail.php">การเพิ่มชื่อผู้ขับขี่เพิ่มเติม</a><span>โดยคุณ จุไรวลัยพร</span></td>
 				<td>999</td>
 				<td>20/10/56</td>
 			</tr>
 			<tr>
-				<td><a href="#">การเพิ่มชื่อผู้ขับขี่เพิ่มเติม</a><span>โดยคุณ จุไรวลัยพร</span></td>
+				<td><a href="faq-detail.php">การเพิ่มชื่อผู้ขับขี่เพิ่มเติม</a><span>โดยคุณ จุไรวลัยพร</span></td>
 				<td>999</td>
 				<td>20/10/56</td>
 			</tr>
 			<tr>
-				<td><a href="#">การเพิ่มชื่อผู้ขับขี่เพิ่มเติม</a><span>โดยคุณ จุไรวลัยพร</span></td>
+				<td><a href="faq-detail.php">การเพิ่มชื่อผู้ขับขี่เพิ่มเติม</a><span>โดยคุณ จุไรวลัยพร</span></td>
+				<td>999</td>
+				<td>20/10/56</td>
+			</tr>
+			<tr>
+				<td><a href="faq-detail.php">การเพิ่มชื่อผู้ขับขี่เพิ่มเติม</a><span>โดยคุณ จุไรวลัยพร</span></td>
+				<td>999</td>
+				<td>20/10/56</td>
+			</tr>
+			<tr>
+				<td><a href="faq-detail.php">การเพิ่มชื่อผู้ขับขี่เพิ่มเติม</a><span>โดยคุณ จุไรวลัยพร</span></td>
+				<td>999</td>
+				<td>20/10/56</td>
+			</tr>
+			<tr>
+				<td><a href="faq-detail.php">การเพิ่มชื่อผู้ขับขี่เพิ่มเติม</a><span>โดยคุณ จุไรวลัยพร</span></td>
+				<td>999</td>
+				<td>20/10/56</td>
+			</tr>
+			<tr>
+				<td><a href="faq-detail.php">การเพิ่มชื่อผู้ขับขี่เพิ่มเติม</a><span>โดยคุณ จุไรวลัยพร</span></td>
+				<td>999</td>
+				<td>20/10/56</td>
+			</tr>
+			<tr>
+				<td><a href="faq-detail.php">การเพิ่มชื่อผู้ขับขี่เพิ่มเติม</a><span>โดยคุณ จุไรวลัยพร</span></td>
 				<td>999</td>
 				<td>20/10/56</td>
 			</tr>
@@ -85,5 +117,6 @@
 </div>
 </div>
 <?php require('inc_footer.php'); ?>
+<link rel="stylesheet" href="css/colorbox.css">
 </body>
 </html>

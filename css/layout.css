@@ -176,6 +176,7 @@ header{
 }
 .asset-btn a .btn-body{
 	background-color: #0057a8;
+	height: 26px;
 }
 .reg{
 	display: inline;

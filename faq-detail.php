@@ -1,3 +1,4 @@
+<!--
 <!DOCTYPE html>
 <html lang="">
 <head>
@@ -8,6 +9,7 @@
 	<meta name="robots" content="" />
 </head>
 <body>
+-->
 <div class="faq-body">
 	<div class="section quiz-topinfo">
 		<div class="quiz-mode">
@@ -39,15 +41,25 @@
 		</div>
 	</div>
 	<div class="section quiz-meta">
-		<div class="section-title">คำตอบจากสินทรัพย์ประกันภัย :<span>โดยแผนกลูกค้าสัมพันธ์</span></div>
-		<div class="section-content"></div>
+		<div class="section-title">คำตอบจากสินทรัพย์ประกันภัย :<span style="color:#959595;">โดยแผนกลูกค้าสัมพันธ์</span></div>
+		<div class="section-content">ติดต่อเบอร์กลางคือ 02-7925555 หรือ 1729 แล้วกด 9 โอเปอร์เรเตอร์ ต่อสายคุณสุนทรศักดิ์ค่ะ</div>
 		<div class="section-bottom-info">
 		ตอบเมื่อ 21/10/56 ให้คำตอบโดยลูกค้าสัมพันธ์ บันทึกข้อมูลโดย PR Asset
 		</div>
 	</div>
+	<div class="clear" style="height:20px;"></div>
+	<div class="asset-btn">
+					<a  onclick="parent.$.colorbox.close(); return false;" href="#">
+						<div class="btn-left"><img src="images/btn-leftbg.png" alt="btn-leftbg" width="7" height="26" /></div>
+						<div class="btn-body">ปิดหน้าต่าง</div>
+						<div class="btn-right"><img src="images/btn-rightbg.png" alt="btn-rightbg" width="7" height="26" /></div>
+					</a>
+	</div>
 </div>
+<!--
 </body>
 </html>
+-->
 <style>
 .faq-body{
 	max-width: 600px;
@@ -62,6 +74,7 @@
 	margin-right: auto;
 	border-radius: 10px;
 	overflow: hidden;
+	position: relative;
 }
 .quiz-topinfo{
 	display: block;
@@ -92,13 +105,30 @@
 }
 .section-title{
 	width: 80%;
+	height: auto;
 	display: inline;
+	float: left;
+	margin-top: 5px;
 }
 .section-date{
 	width: 10%;
+	height: auto;
 	color: white;
 	display: inline;
 	float: right;
+	margin-top: 5px;
+}
+.section-content{
+	display: block;
+	clear:both;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.section-title,.section-content,.section-bottom-info{
+	margin-left: 20px;
+}
+.section-bottom-info{
+	color:#959595;
 }
 .answer-section{
 	background-color: #e1e1e1;
@@ -109,5 +139,12 @@
 	background-color: #f5f5f5;
 	padding: 5px;
 	margin-top: 10px;
+}
+.asset-btn{
+	margin-left:45%;
+	margin-bottom: 30px;
+}
+#cboxClose{
+	display: none;
 }
 </style>

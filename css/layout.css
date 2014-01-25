@@ -28,6 +28,12 @@ body{
 	background-repeat: repeat-x;
 	background-position: left top;
 }
+section:after{
+	content: "";
+	clear: both;
+	display: block;
+	visibility: hidden;
+}
 a{
 	text-decoration: none;
 }
@@ -77,9 +83,16 @@ img.wrap-right{
 }
 .content{
 	width: 100%;
+	height: auto;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: white;
+}
+.content:after{
+	content: "";
+	clear: both;
+	display: block;
+	visibility: hidden;
 }
 .otherpage{
 	background-color: white;
@@ -103,10 +116,17 @@ img.wrap-right{
 }
 .content .right-col{
 	width: 630px;
+	height: auto;
 	display: inline;
 	float: right;
 	margin-right: 10px;
 	position: relative;
+}
+.content .right-col:after{
+	content: "";
+	clear: both;
+	display: block;
+	visibility: hidden;
 }
 header{
 	width: 960px;
@@ -764,7 +784,7 @@ footer .stat span{
 }
 .product-content{
 	width: 100%;
-	height: 50px;
+	height: auto;
 	display: block;
 	clear: both;
 }
@@ -1340,7 +1360,7 @@ footer .stat span{
 .tb-pro th.a{
 	background-color: #ffb7b7;
 }
-.tb-pro th.b{
+.tb-pro th.b {
 	background-color: #bf3939;
 	color: white;
 	text-align: center;
@@ -1359,4 +1379,27 @@ footer .stat span{
 .rule-list{
 	margin-left: 30px;
 	width: 90%;
+	clear: both;
+	display: block;
+}
+.rule-list:after{
+	content: "";
+	clear: both;
+	display: block;
+	visibility: hidden;
+}
+.rule-list li ol{
+	margin-left: 20px;	
+}
+.rule-list li ol li{
+	list-style-type: decimal;
+}
+.hililist >li{
+	list-style: none;
+	font-weight: bold;
+	font-size: 1.1em;
+	margin-left: 20px;
+}
+.hililist >li > ul > li{
+	margin-left: 30px;
 }

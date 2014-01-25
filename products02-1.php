@@ -32,9 +32,109 @@
 			</ul>
 		</div>
 		<div class="product-content">
-			<h3>รายละเอียดความคุ้มครองกรมธรรม์</h3>
+			<h3>รายละเอียดความคุ้มครองกรมธรรม์ Asset 1</h3>
 			<table class="tb-pro">
-				<tr><th class="a">ความคุ้มครองความรับผิดชอบต่อบุคคลภายนอก</th><th class="a" style="text-align:right"></th></tr>
+				<tr>
+					<th class="a" style="text-align:center;">ความคุ้มครอง</th>
+					<th class="a" style="text-align:center;">รถเก๋ง <br>(ไม่เกิน 5 คน)<br><span style="font-size:0.8em">รหัสรถ 110</span></th>
+					<th class="a" style="text-align:center;">รถโดยสาร <br>(ไม่เกิน 6 คน)<br><span style="font-size:0.8em">รหัสรถ 210</span></th>
+					<th class="a" style="text-align:center;">รถกระบะบรรทุก <br>(ไม่เกิน 3 คน)<br><span style="font-size:0.8em">รหัสรถ 320</span></th>
+				</tr>
+				<tr>
+					<td style="text-align-left;">ความรับผิดต่อชีวิต / ร่างกายหรืออนามัย ต่อคน</td>
+					<td style="text-align:right;">300,000</td>
+					<td style="text-align:right;">300,000</td>
+					<td style="text-align:right;">300,000</td>
+				</tr>
+				<tr>
+					<td style="text-align-left;">ของบุคคลภายนอก ต่อครั้ง</td>
+					<td style="text-align:right;">10,000,000</td>
+					<td style="text-align:right;">10,000,000</td>
+					<td style="text-align:right;">10,000,000</td>
+				</tr>
+				<tr>
+					<td style="text-align-left;">ความรับผิดต่อทรัพย์สินของบุคคลภายนอก ต่อครั้ง</td>
+					<td style="text-align:right;">1,000,000</td>
+					<td style="text-align:right;">1,000,000</td>
+					<td style="text-align:right;">1,000,000</td>
+				</tr>
+				<tr>
+					<td style="text-align-left;">อุบัติเหตุส่วนบุคคล</td>
+					<td style="text-align:right;">50,000</td>
+					<td style="text-align:right;">50,000</td>
+					<td style="text-align:right;">50,000</td>
+				</tr>
+				<tr>
+					<td style="text-align-left;">ค่ารักษาพยาบาล</td>
+					<td style="text-align:right;">50,000</td>
+					<td style="text-align:right;">50,000</td>
+					<td style="text-align:right;">50,000</td>
+				</tr>
+				<tr>
+					<td style="text-align-left;">ประกันตัวผู้ขับขี่</td>
+					<td style="text-align:right;">200,000</td>
+					<td style="text-align:right;">100,000</td>
+					<td style="text-align:right;">100,000</td>
+				</tr>
+				<tr>
+					<td class="sum" style="text-align-left;">เบี้ยประกันภัย (รวมพ.ร.บ.)</td>
+					<td class="sum" style="text-align:right;">2800</td>
+					<td class="sum" style="text-align:right;">4000</td>
+					<td class="sum" style="text-align:right;">4000</td>
+				</tr>
+				
+			</table>
+			
+			<h3>รายละเอียดความคุ้มครองกรมธรรม์ Asset 2</h3>
+			<table class="tb-pro">
+				<tr>
+					<th class="a" style="text-align:center;">ความคุ้มครอง</th>
+					<th class="a" style="text-align:center;">รถเก๋ง <br>(ไม่เกิน 5 คน)<br><span style="font-size:0.8em">รหัสรถ 110</span></th>
+					<th class="a" style="text-align:center;">รถโดยสาร <br>(ไม่เกิน 6 คน)<br><span style="font-size:0.8em">รหัสรถ 210</span></th>
+					<th class="a" style="text-align:center;">รถกระบะบรรทุก <br>(ไม่เกิน 3 คน)<br><span style="font-size:0.8em">รหัสรถ 320</span></th>
+				</tr>
+				<tr>
+					<td style="text-align-left;">ความรับผิดต่อชีวิต / ร่างกายหรืออนามัย ต่อคน</td>
+					<td style="text-align:right;">300,000</td>
+					<td style="text-align:right;">300,000</td>
+					<td style="text-align:right;">300,000</td>
+				</tr>
+				<tr>
+					<td style="text-align-left;">ของบุคคลภายนอก ต่อครั้ง</td>
+					<td style="text-align:right;">10,000,000</td>
+					<td style="text-align:right;">10,000,000</td>
+					<td style="text-align:right;">10,000,000</td>
+				</tr>
+				<tr>
+					<td style="text-align-left;">ความรับผิดต่อทรัพย์สินของบุคคลภายนอก ต่อครั้ง</td>
+					<td style="text-align:right;">1,000,000</td>
+					<td style="text-align:right;">1,000,000</td>
+					<td style="text-align:right;">1,000,000</td>
+				</tr>
+				<tr>
+					<td style="text-align-left;">อุบัติเหตุส่วนบุคคล</td>
+					<td style="text-align:right;">50,000</td>
+					<td style="text-align:right;">50,000</td>
+					<td style="text-align:right;">50,000</td>
+				</tr>
+				<tr>
+					<td style="text-align-left;">ค่ารักษาพยาบาล</td>
+					<td style="text-align:right;">-</td>
+					<td style="text-align:right;">-</td>
+					<td style="text-align:right;">-</td>
+				</tr>
+				<tr>
+					<td style="text-align-left;">ประกันตัวผู้ขับขี่</td>
+					<td style="text-align:right;">-</td>
+					<td style="text-align:right;">-</td>
+					<td style="text-align:right;">-</td>
+				</tr>
+				<tr>
+					<td class="sum" style="text-align-left;">เบี้ยประกันภัย (รวมพ.ร.บ.)</td>
+					<td class="sum" style="text-align:right;">2500</td>
+					<td class="sum" style="text-align:right;">3700</td>
+					<td class="sum" style="text-align:right;">3700</td>
+				</tr>
 				
 			</table>
 			

@@ -1327,20 +1327,32 @@ footer .stat span{
 	border-left: 1px solid white;
 	border-right: 1px solid white;
 }
-.tb-pro tr:nth-child(ood) td{
+.tb-pro tr:nth-child(odd) td{
 	background-color: #ebebeb;
 }
 .tb-pro tr:nth-child(even) td{
 	background-color: #dddddd;
 }
+.tb-pro tr td.sum{
+	background-color: #fc7474;
+	color: white;
+}
 .tb-pro th.a{
 	background-color: #ffb7b7;
+}
+.tb-pro th.b{
+	background-color: #bf3939;
+	color: white;
+	text-align: center;
 }
 .tb-pro th{
 	font-size: 1.1em;
 	font-weight: bold;
+	line-height: 1em;
+	padding-top: 5px;
+	padding-bottom: 10px;
 }
-tb-pro tr td ,.rule-list{ 
+.tb-pro tr td ,.rule-list{ 
 	color: #707070;
 	font-weight: 0.9em;
 }

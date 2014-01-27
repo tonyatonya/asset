@@ -66,7 +66,22 @@
 						</ul>
 					</div>
 				</li>
-				<li class="mainmenu"><a href="products.php">ผลิตภัณฑ์และบริการ</a></li>
+				<li class="mainmenu"><a href="#">ผลิตภัณฑ์และบริการ</a>
+					<div class="submenu">
+						<ul>
+							<li><a href="products01-1.php">ประกันภัยรถยนต์ประเภท 1 พิเศษ</a></li>
+							<li><a href="products02-1.php">ประกันภัยรถยนต์ประเภท 3 รวมพรบ.</a></li>
+							<li><a href="products03-1.php">ประกันภัยรถยนต์ประเภท 3 พิเศษ</a></li>
+							<li><a href="products04-1.php">ประกันภัยรถยนต์ประเภท 2 พิเศษ</a></li>
+							<li><a href="products05-1.php">ประกันภัยผู้เล่นกอล์ฟ</a></li>
+							<li><a href="products06-1.php">ประกันภัยอุบัติเหตุส่วนบุคคล</a></li>
+							<li><a href="products07-1.php">ประกันภัยอุบัติเหตุการเดินทาง</a></li>
+							<li><a href="products08-1.php">ประกันภัยคนรักบ้าน</a></li>
+							<li><a href="products09-1.php">ประกันภัยเบ็ดเตล็ดคุ้มครองผู้ค้าอัญมณี</a></li>
+							<li><a href="products-servicecenter.php">อู่ / ศูนย์บริการ</a></li>
+						</ul>
+					</div>
+				</li>
 				<li class="mainmenu"><a href="#">ข้อมูลนักลงทุน</a>
 					<div class="submenu">
 						<ul>

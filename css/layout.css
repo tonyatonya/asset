@@ -744,6 +744,7 @@ footer .stat span{
 	width: 630px;
 	/* height: 205px; */
 	height: auto;
+	position: relative;
 }
 .tab-menu{
 	width: 100%;
@@ -1402,4 +1403,33 @@ footer .stat span{
 }
 .hililist >li > ul > li{
 	margin-left: 30px;
+}
+
+
+.banner-formholder{
+	position: absolute;
+	left: 30px;
+	top:20px;
+	width: 200px;
+}
+.center-list{
+	margin-top: 30px;
+}
+.center-list li{
+	list-style: none;
+	height: auto;
+	width: 50%;
+	margin-left: 30px;
+}
+.center-list .center-name{
+	color: #c50000;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+.center-address{
+	color: #898989;
+	font-size: 1em;
+}
+.center-tel{
+	color: #00ccff;
 }

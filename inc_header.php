@@ -22,7 +22,9 @@
 	<!-- <script type="text/javascript" language="javascript" src="script/init.js"></script> -->
 	<!-- <script type="text/javascript" src="script/jquery-1.9.1.js"></script> -->
 	<!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script> -->
+	
 	<script type="text/javascript" src="script/jquery-1.10.2.js"></script>
+	<script type="text/javascript" src="js/jquery.hoverIntent.js"></script>
 	<div class="wrapper">
 	<header>
 		<div class="lang-sw">
@@ -53,7 +55,7 @@
 		</div>
 		<nav class="top-nav">
 			<ul>
-				<li class="home"><a href="index.php"><img src="images/homeico.png" alt="homeico" width="23" height="25" /></a></li>
+				<li class="home"><a href="index.php" style="height:45px;"><img style="margin-top:5px;" src="images/homeico.png" alt="homeico" width="23" height="25" /></a></li>
 				<li class="mainmenu"><a href="#">เกี่ยวกับเรา</a>
 					<div class="submenu">
 						<ul>
@@ -114,7 +116,9 @@
 			</div>
 			<script type="text/javascript">
 				$(document).ready(function(){
-					$(".mainmenu > a").click(function(){
+					/* Old subMenu */
+					/*
+$(".mainmenu > a").click(function(){
 						var subMenu = $(this).parent().find(".submenu");
 							if($(subMenu).hasClass("opened")){ 
 								$(".submenu.opened").slideUp().removeClass("opened");
@@ -125,6 +129,21 @@
 							}
 							
 					})
+*/
+					/* new subMenu */
+					
+					$(".mainmenu").hoverIntent(function(){
+					if($(this).find(".submenu").length>0){
+						$(this).addClass("hover");
+						$(this).find(".submenu").slideToggle();
+						}
+					},function(){
+						var object =$(this);
+						setTimeout(function(){
+							$(object).find(".submenu").slideUp();
+							$(object).removeClass("hover");
+						},200);
+					});
 				})
 			</script>
 		</nav>

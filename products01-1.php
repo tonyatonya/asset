@@ -20,7 +20,7 @@
 		<hr>
 		<div class="product-name">
 			<div class="ico"><img src="images/exampleicon.png" alt="exampleicon" width="46" height="46" /></div>
-			<h2>ประกันภัยรถยนตืประเภท 1 พิเศษ</h2>
+			<h2>ประกันภัยรถยนต์ประเภท 1 พิเศษ</h2>
 		</div>
 		<div class="product-banner">
 			<img src="images/productsbanner/productsbanner01.jpg" alt="productsbanner01" width="630" height="200">
@@ -36,10 +36,10 @@
 			<table class="tb-pro">
 				<tr><th class="a">ความคุ้มครองความรับผิดชอบต่อบุคคลภายนอก</th><th class="a" style="text-align:right"></th></tr>
 				<tr><td>ความรับผิดต่อชีวิต ร่างกาย หรืออนามัย	ต่อคน</td><td style="text-align:right">300,000</td></tr>
-				<tr><td>ความรับผิดต่อชีวิต ร่างกาย หรืออนามัย	ต่อคน</td><td style="text-align:right">10,000,000</td></tr>
+				<tr><td>ความรับผิดต่อชีวิต ร่างกาย หรืออนามัย	ต่อครั้ง</td><td style="text-align:right">10,000,000</td></tr>
 				<tr><td>ความเสียหายต่อทรัพย์สินบุคคลภายนอก	ต่อครั้ง</td><td style="text-align:right">1,000,000</td></tr>
 				<tr><th class="a">ความคุ้มครองความรับผิดชอบต่อบุคคลภายนอก</th><th class="a" style="text-align:right">ตามตารางเบี้ย</th></tr>
-				<tr><td>อุบัติเหตุส่วนบุคคล สำหรับผู้ขับขี่และผู้โดยสาร</td><td style="text-align:right">500,000</td></tr>
+				<tr><td>อุบัติเหตุส่วนบุคคล สำหรับผู้ขับขี่และผู้โดยสาร</td><td style="text-align:right">50,000</td></tr>
 				<tr><td>(เก๋ง รวม 5 คน กระบะ รวม 3 คน)</td><td style="text-align:right"></td></tr>
 				<tr><td>ค่ารักษาพยาบาล</td><td style="text-align:right">50,000</td></tr>
 				<tr><th class="a" >ความเสียหายส่วนแรก (กรณีฝ่ายผิด)</th><th class="a" style="text-align:right"> ฟรี</th></tr>
@@ -47,14 +47,14 @@
 			</table>
 			
 			<table class="tb-pro">
-				<tr><th class="a" style="text-align:center">ความคุ้มครองความเสียหายต่อรถยนต์</th><th class="a" style="text-align:center">คุ้มครองรถยนต์ สูญหาย ไฟไหม้</th><th class="a" style="text-align:center">เบี้ยรวมภาษีอากร</th></tr>
-				<tr><td style="text-align:center">200,000</td><td style="text-align:center">200,000</td><td style="text-align:center">200,000</td></tr>
-				<tr><td style="text-align:center">250,000</td><td style="text-align:center">250,000</td><td style="text-align:center">250,000</td></tr>
-				<tr><td style="text-align:center">300,000</td><td style="text-align:center">300,000</td><td style="text-align:center">300,000</td></tr>
-				<tr><td style="text-align:center">350,000</td><td style="text-align:center">350,000</td><td style="text-align:center">350,000</td></tr>
-				<tr><td style="text-align:center">400,000</td><td style="text-align:center">400,000</td><td style="text-align:center">400,000</td></tr>
-				<tr><td style="text-align:center">450,000</td><td style="text-align:center">450,000</td><td style="text-align:center">450,000</td></tr>
-				<tr><td style="text-align:center">500,000</td><td style="text-align:center">500,000</td><td style="text-align:center">500,000</td></tr>
+				<tr><th class="a" style="text-align:center">ความคุ้มครองความเสียหายต่อรถยนต์</th><th class="a" style="text-align:center">คุ้มครองรถยนต์ สูญหาย ไฟไหม้</th><!-- <th class="a" style="text-align:center">เบี้ยรวมภาษีอากร</th> --></tr>
+				<tr><td style="text-align:center">200,000</td><td style="text-align:center">200,000</td><!--<td style="text-align:center">200,000</td>--></tr>
+				<tr><td style="text-align:center">250,000</td><td style="text-align:center">250,000</td><!--<td style="text-align:center">250,000</td>--></tr>
+				<tr><td style="text-align:center">300,000</td><td style="text-align:center">300,000</td><!--<td style="text-align:center">300,000</td>--></tr>
+				<tr><td style="text-align:center">350,000</td><td style="text-align:center">350,000</td><!--<td style="text-align:center">350,000</td>--></tr>
+				<tr><td style="text-align:center">400,000</td><td style="text-align:center">400,000</td><!--<td style="text-align:center">400,000</td>--></tr>
+				<tr><td style="text-align:center">450,000</td><td style="text-align:center">450,000</td><!--<td style="text-align:center">450,000</td>--></tr>
+				<tr><td style="text-align:center">500,000</td><td style="text-align:center">500,000</td><!--<td style="text-align:center">500,000</td>--></tr>
 			</table>
 		</div>
 	</section>

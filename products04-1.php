@@ -35,7 +35,7 @@
 			<h3>รายละเอียดความคุ้มครองกรมธรรม์</h3>
 			<table class="tb-pro">
 				<tr>
-					<th class="a" style="text-align:center;" rowspan="2">คุ้มครองรถยนต์ สูญหาย/ไฟไหม้</th>
+					<th class="a" style="text-align:center;" rowspan="2">คุ้มครองรถยนต์ สูญหาย/ไฟไหม้</th>
 					<th class="b" style="text-align:center;" colspan="4">เบี้ยประกันภัยรวมภาษีอากร</th>
 				</tr>
 				<tr>
@@ -135,12 +135,11 @@
 					<td style="text-align:right;">1,000,000</td>
 				</tr>
 				<tr>
-					<td style="text-align:left;">รถยนต์ เสียหาย สูญหาย
-ไฟไหม้</td>
-					<td style="text-align:right;"></td>
-					<td style="text-align:right;"></td>
-					<td style="text-align:right;"></td>
-					<td style="text-align:right;"></td>
+					<td style="text-align:left;  background-color: gray; color: white;">รถยนต์ เสียหาย สูญหาย ไฟไหม้</td>
+					<td style="text-align:right; background-color: gray; color: white;"></td>
+					<td style="text-align:right; background-color: gray; color: white;"></td>
+					<td style="text-align:right; background-color: gray; color: white;"></td>
+					<td style="text-align:right; background-color: gray; color: white;"></td>
 				</tr>
 				<tr>
 					<td style="text-align:left;">ความเสียหายต่อรถยนต์ที่เอา
@@ -151,11 +150,8 @@
 					<td style="text-align:right;">150,000</td>
 				</tr>
 				<tr>
-					<td style="text-align:left;">รถยนต์สูญหาย ไฟไหม้</td>
-					<td style="text-align:right;"></td>
-					<td style="text-align:right;"></td>
-					<td style="text-align:right;"></td>
-					<td style="text-align:right;"></td>
+					<td style="text-align:left; background-color: gray; color: white;">รถยนต์สูญหาย ไฟไหม้</td>
+					<td style="text-align:center;background-color: gray; color: white;" colspan="4">ตามทุนประกันภัย</td>
 				</tr>
 				<tr>
 					<td style="text-align:left;">อุบัติเหตุส่วนบุคคล สำหรับ
@@ -176,9 +172,9 @@
 				<tr>
 					<td style="text-align:left;">ความเสียหายส่วนแรก
 (กรณีฝ่ายผิด)</td>
-					<td style="text-align:right;">2,0000</td>
+					<td style="text-align:right;">2,000</td>
 					<td style="text-align:right;">ฟรี</td>
-					<td style="text-align:right;">2,0000</td>
+					<td style="text-align:right;">2,000</td>
 					<td style="text-align:right;">ฟรี</td>
 				</tr>
 				<tr>

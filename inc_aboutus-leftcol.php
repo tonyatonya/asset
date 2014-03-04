@@ -2,12 +2,12 @@
 	<div class="title"><h2>เกี่ยวกับเรา</h2></div>
 	<!-- <div class="title"><img src="images/contact-title.png" alt="product-title" width="326" height="62" /></div> -->
 	<ul>
-		<li><a href="#"><div class="ico"><img src="images/exampleicon.png" alt="exampleicon" width="46" height="46" /></div><div>ประวัติของสินทรัพย์ประกันภัย</div></a></li>
-		<li><a href="#"><div class="ico"><img src="images/exampleicon.png" alt="exampleicon" width="46" height="46" /></div><div>วิสัยทัศน์ และ พันธกิจ</div></a></li>
-		<li><a href="#"><div class="ico"><img src="images/exampleicon.png" alt="exampleicon" width="46" height="46" /></div><div>คณะกรรมการตรวจสอบ</div></a></li>
-		<li><a href="#"><div class="ico"><img src="images/exampleicon.png" alt="exampleicon" width="46" height="46" /></div><div>คณะกรรมการการลงทุน</div></a></li>
-		<li><a href="#"><div class="ico"><img src="images/exampleicon.png" alt="exampleicon" width="46" height="46" /></div><div>นโยบายบริษัท</div></a></li>
-		<li><a href="#"><div class="ico"><img src="images/exampleicon.png" alt="exampleicon" width="46" height="46" /></div><div>ISO : 9001:2008</div></a></li>
+		<li><a href="#"><div class="ico"><img src="images/ico/assetIcon22.png" alt="exampleicon" width="46" height="46" /></div><div>ประวัติของสินทรัพย์ประกันภัย</div></a></li>
+		<li><a href="#"><div class="ico"><img src="images/ico/assetIcon23.png" alt="exampleicon" width="46" height="46" /></div><div>วิสัยทัศน์ และ พันธกิจ</div></a></li>
+		<li><a href="#"><div class="ico"><img src="images/ico/assetIcon24.png" alt="exampleicon" width="46" height="46" /></div><div>คณะกรรมการตรวจสอบ</div></a></li>
+		<li><a href="#"><div class="ico"><img src="images/ico/assetIcon25.png" alt="exampleicon" width="46" height="46" /></div><div>คณะกรรมการการลงทุน</div></a></li>
+		<li><a href="#"><div class="ico"><img src="images/ico/assetIcon26.png" alt="exampleicon" width="46" height="46" /></div><div>นโยบายบริษัท</div></a></li>
+		<li><a href="#"><div class="ico"><img src="images/ico/assetIcon27.png" alt="exampleicon" width="46" height="46" /></div><div>ISO : 9001:2008</div></a></li>
 	</ul>
 </div>
 <?php require('inc_calculatebanner.php'); ?>

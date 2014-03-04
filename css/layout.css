@@ -738,10 +738,11 @@ footer .stat span{
 	color: #1949a2;
 }
 .category-menu ul li a div{
-	float: left;
+	/* float: left; */
 	display: inline;
 	margin-left: 10px;
 	line-height: 40px;
+	position: relative;
 }
 .product-name{
 	width: 100%;
@@ -777,6 +778,7 @@ footer .stat span{
 	border-bottom: 1px solid #c4c4c4;
 	margin-bottom: 10px;
 }
+
 .tab-menu ul li{
 	list-style: none;
 	float: left;
@@ -1453,4 +1455,102 @@ footer .stat span{
 }
 .center-tel{
 	color: #00ccff;
+}
+.aboutbg{
+	background-image: url(../images/aboutsky.png);
+	background-repeat: no-repeat;
+}
+
+/***** board ******/
+.board-list{
+	display: block;
+	clear: both;
+}
+.board-list li{
+	list-style: none;
+	float: left;
+	position: relative;
+	width: 150px;
+	min-height: 230px;
+	margin-top: 20px;
+	margin-left: 3px;
+}
+.board-list li:after{
+	content: "";
+	clear: both;
+	display: block;
+	visibility: hidden;
+}
+.board-list li div{
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+.board-list li .img{
+	margin-left: auto;
+	margin-right: auto;
+}
+.board-list li .img img{
+	width: 80px;
+	height: 110px;
+}
+.board-list li.mainlist{
+	float: none;
+
+	width: 440px;
+	min-height: 130px;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.board-list li.mainlist .detail{
+	background-image: url(../images/about-mainname.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	height: 130px;
+	width: 320px;
+	display: inline;
+	float: left;
+}
+.board-list li.mainlist .detail div{
+	display: block;
+	float: left;
+	margin-left: 10px;
+	clear: both;
+	text-align: left;
+}
+.board-list li.mainlist .detail div:first-child{
+	margin-top: 35px;
+}
+.board-list li.mainlist img{
+	float: left;
+	display: inline;
+}
+.board-list li.mainlist img{
+	width: 100px;
+	height: 130px;
+}
+.board-list img{
+	padding: 3px;
+	border:1px solid #c4c4c4;
+	box-shadow: 4px 0px 6px rgba(0,0,0,0.30);
+	background-color: white;
+}
+.board-list img:after{
+	content: "";
+	clear: both;
+	display: block;
+	visibility: hidden;
+}
+.board-list .name{
+	color: #c50000;
+	font-size: 1em;
+	white-space: nowrap;
+}
+.board-list li.mainlist .name{
+	font-size: 1.3em;
+}
+.board-list .position{
+	color: #646464;
+	font-family: 0.9em;
 }

@@ -9,7 +9,7 @@
 	<section class="left-col">
 		<?php require('inc_aboutus-leftcol.php') ?>
 	</section>
-	<section class="right-col">
+	<section class="right-col aboutbg">
 		<div class="bread-nav">
 			<ul>
 				<li><a href="#">หน้าหลัก</a></li>
